@@ -1,0 +1,6 @@
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\bin\Debug\LoaderBinding.dll
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\bin\Debug\LoaderBinding.pdb
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\obj\Debug\LoaderBinding.csprojAssemblyReference.cache
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\obj\Debug\LoaderBinding.csproj.CoreCompileInputs.cache
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\obj\Debug\LoaderBinding.dll
+D:\Projects_beesolver\demos\SplashScreenLoader\LoaderBinding\obj\Debug\LoaderBinding.pdb

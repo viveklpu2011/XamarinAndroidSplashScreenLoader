@@ -1,0 +1,1885 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.lsjwzh.widget.materialloadingprogressbar"
+    jni-name="com/lsjwzh/widget/materialloadingprogressbar">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/BuildConfig;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="APPLICATION_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.lsjwzh.widget.materialloadingprogressbar&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLAVOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_CODE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="12"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;0.5.6&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/widget/ImageView;"
+      extends="android.widget.ImageView"
+      extends-generic-aware="android.widget.ImageView"
+      final="false"
+      name="CircleProgressBar"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/CircleProgressBar;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CircleProgressBar"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CircleProgressBar"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CircleProgressBar"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="circleBackgroundEnabled"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getMax"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getProgress"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getVisibility"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isShowArrow"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isShowProgressText"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAttachedToWindow"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDetachedFromWindow"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDraw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLayout"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZIIII)V">
+        <parameter
+          name="changed"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="left"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="top"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="right"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="bottom"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMeasure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="widthMeasureSpec"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="heightMeasureSpec"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAnimationListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation$AnimationListener;)V">
+        <parameter
+          name="listener"
+          type="android.view.animation.Animation.AnimationListener"
+          jni-type="Landroid/view/animation/Animation$AnimationListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="colorRes"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCircleBackgroundEnabled"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="enableCircleBackground"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorSchemeColors"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([I)V">
+        <parameter
+          name="colors"
+          type="int..."
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorSchemeResources"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([I)V">
+        <parameter
+          name="colorResIds"
+          type="int..."
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="setImageDrawable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/drawable/Drawable;)V">
+        <parameter
+          name="drawable"
+          type="android.graphics.drawable.Drawable"
+          jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="setImageResource"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="resId"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="true"
+        name="setImageURI"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/net/Uri;)V">
+        <parameter
+          name="uri"
+          type="android.net.Uri"
+          jni-type="Landroid/net/Uri;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setMax"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="max"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setProgress"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="progress"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShowArrow"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="showArrow"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShowProgressText"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="mIfDrawText"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setVisibility"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="visibility"
+          type="int"
+          jni-type="I" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEFAULT_TEXT_SIZE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="9"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/graphics/drawable/shapes/OvalShape;"
+      extends="android.graphics.drawable.shapes.OvalShape"
+      extends-generic-aware="android.graphics.drawable.shapes.OvalShape"
+      final="false"
+      name="CircleProgressBar.OvalShadow"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/CircleProgressBar$OvalShadow;"
+      static="false"
+      visibility="private">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CircleProgressBar.OvalShadow"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/lsjwzh/widget/materialloadingprogressbar/CircleProgressBar;II)V">
+        <parameter
+          name="shadowRadius"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="circleDiameter"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+        <parameter
+          name="paint"
+          type="android.graphics.Paint"
+          jni-type="Landroid/graphics/Paint;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/graphics/drawable/Drawable;"
+      extends="android.graphics.drawable.Drawable"
+      extends-generic-aware="android.graphics.drawable.Drawable"
+      final="false"
+      name="MaterialProgressDrawable"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable;"
+      static="false"
+      visibility="public">
+      <implements
+        name="android.graphics.drawable.Animatable"
+        name-generic-aware="android.graphics.drawable.Animatable"
+        jni-type="Landroid/graphics/drawable/Animatable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MaterialProgressDrawable"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/view/View;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="animExcutor"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="c"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAlpha"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getIntrinsicHeight"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getIntrinsicWidth"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getOpacity"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isRunning"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAlpha"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="alpha"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setArrowScale"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="scale"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorFilter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/ColorFilter;)V">
+        <parameter
+          name="colorFilter"
+          type="android.graphics.ColorFilter"
+          jni-type="Landroid/graphics/ColorFilter;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorSchemeColors"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([I)V">
+        <parameter
+          name="colors"
+          type="int..."
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setProgressRotation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="rotation"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSizeParameters"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(DDDDFF)V">
+        <parameter
+          name="progressCircleWidth"
+          type="double"
+          jni-type="D" />
+        <parameter
+          name="progressCircleHeight"
+          type="double"
+          jni-type="D" />
+        <parameter
+          name="centerRadius"
+          type="double"
+          jni-type="D" />
+        <parameter
+          name="strokeWidth"
+          type="double"
+          jni-type="D" />
+        <parameter
+          name="arrowWidth"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="arrowHeight"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setStartEndTrim"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF)V">
+        <parameter
+          name="startAngle"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="endAngle"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showArrow"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="show"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showArrowOnFirstStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="showArrowOnFirstStart"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="start"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stop"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="updateSizes"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="size"
+          type="int"
+          jni-type="I" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEFAULT"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LARGE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="0"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MaterialProgressDrawable.1"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.graphics.drawable.Drawable.Callback"
+        name-generic-aware="android.graphics.drawable.Drawable.Callback"
+        jni-type="Landroid/graphics/drawable/Drawable$Callback;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="invalidateDrawable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/drawable/Drawable;)V">
+        <parameter
+          name="d"
+          type="android.graphics.drawable.Drawable"
+          jni-type="Landroid/graphics/drawable/Drawable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="scheduleDrawable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;J)V">
+        <parameter
+          name="d"
+          type="android.graphics.drawable.Drawable"
+          jni-type="Landroid/graphics/drawable/Drawable;" />
+        <parameter
+          name="what"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+        <parameter
+          name="when"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unscheduleDrawable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V">
+        <parameter
+          name="d"
+          type="android.graphics.drawable.Drawable"
+          jni-type="Landroid/graphics/drawable/Drawable;" />
+        <parameter
+          name="what"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/animation/Animation;"
+      extends="android.view.animation.Animation"
+      extends-generic-aware="android.view.animation.Animation"
+      final="false"
+      name="MaterialProgressDrawable.2"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$2;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="applyTransformation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FLandroid/view/animation/Transformation;)V">
+        <parameter
+          name="interpolatedTime"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="t"
+          type="android.view.animation.Transformation"
+          jni-type="Landroid/view/animation/Transformation;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MaterialProgressDrawable.3"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$3;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.animation.Animation.AnimationListener"
+        name-generic-aware="android.view.animation.Animation.AnimationListener"
+        jni-type="Landroid/view/animation/Animation$AnimationListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationEnd"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationRepeat"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onAnimationStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/animation/Animation;)V">
+        <parameter
+          name="animation"
+          type="android.view.animation.Animation"
+          jni-type="Landroid/view/animation/Animation;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/animation/AccelerateDecelerateInterpolator;"
+      extends="android.view.animation.AccelerateDecelerateInterpolator"
+      extends-generic-aware="android.view.animation.AccelerateDecelerateInterpolator"
+      final="false"
+      name="MaterialProgressDrawable.EndCurveInterpolator"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$EndCurveInterpolator;"
+      static="true"
+      visibility="private">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInterpolation"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)F">
+        <parameter
+          name="input"
+          type="float"
+          jni-type="F" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="MaterialProgressDrawable.ProgressDrawableSize"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$ProgressDrawableSize;"
+      static="true"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MaterialProgressDrawable.Ring"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$Ring;"
+      static="true"
+      visibility="private">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MaterialProgressDrawable.Ring"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/drawable/Drawable$Callback;)V">
+        <parameter
+          name="callback"
+          type="android.graphics.drawable.Drawable.Callback"
+          jni-type="Landroid/graphics/drawable/Drawable$Callback;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;Landroid/graphics/Rect;)V">
+        <parameter
+          name="c"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+        <parameter
+          name="bounds"
+          type="android.graphics.Rect"
+          jni-type="Landroid/graphics/Rect;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAlpha"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCenterRadius"
+        native="false"
+        return="double"
+        jni-return="D"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()D" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getEndTrim"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInsets"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRotation"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStartingEndTrim"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStartingRotation"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStartingStartTrim"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStartTrim"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStrokeWidth"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="goToNextColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="resetOriginals"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAlpha"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="alpha"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setArrowDimensions"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF)V">
+        <parameter
+          name="width"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="height"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setArrowScale"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="scale"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setBackgroundColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCenterRadius"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(D)V">
+        <parameter
+          name="centerRadius"
+          type="double"
+          jni-type="D" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorFilter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/ColorFilter;)V">
+        <parameter
+          name="filter"
+          type="android.graphics.ColorFilter"
+          jni-type="Landroid/graphics/ColorFilter;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorIndex"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="index"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColors"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([I)V">
+        <parameter
+          name="colors"
+          type="int[]"
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setEndTrim"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="endTrim"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setInsets"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="width"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="height"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setRotation"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="rotation"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShowArrow"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="show"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setStartTrim"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="startTrim"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setStrokeWidth"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="strokeWidth"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="storeOriginals"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/animation/AccelerateDecelerateInterpolator;"
+      extends="android.view.animation.AccelerateDecelerateInterpolator"
+      extends-generic-aware="android.view.animation.AccelerateDecelerateInterpolator"
+      final="false"
+      name="MaterialProgressDrawable.StartCurveInterpolator"
+      jni-signature="Lcom/lsjwzh/widget/materialloadingprogressbar/MaterialProgressDrawable$StartCurveInterpolator;"
+      static="true"
+      visibility="private">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInterpolation"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)F">
+        <parameter
+          name="input"
+          type="float"
+          jni-type="F" />
+      </method>
+    </class>
+  </package>
+</api>
